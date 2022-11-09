@@ -1,0 +1,79 @@
+
+.sermon_card{
+    float:left;
+    /* font-size: 18px; */
+   
+    margin:30px;
+    border-radius: 10px;
+    width:280px;
+    border: 2px solid #f1f1f1;
+   
+}
+.sermon_card img{
+    max-width: 100%;
+
+}
+.sermon_topic{
+    padding:5px;
+    font-size:20px;
+    font-weight: 600;
+}
+.sermon_preacher{
+    padding:5px;
+    font-size:20px;
+}
+.sermon_desc{
+    padding:5px;
+    font-size:15px;
+}
+.sermon_btn{
+    text-decoration: none;
+    padding:10px;
+    font-size:14px;
+    color:white;
+   background-color: #454545;
+   margin:10px;
+   border-radius:10px;
+   margin-bottom: 20px;
+
+}
+.sermon_btn:hover{
+    font-size:18px;
+    color:white;
+    text-decoration: none;
+}
+.clip{
+    width:500px;
+}
+.video_body{
+    display: flex;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding:40px;
+    flex-direction: row;
+
+}
+.video_content{
+    padding:30px;
+}
+.other_videos{
+    float: left;
+    margin:30px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding:20px;
+}
+.title_others{
+    margin:auto;
+    width:250px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+   .clip{
+   width:250px;
+} 
+.video_body{
+    flex-direction: column;
+}
+}
